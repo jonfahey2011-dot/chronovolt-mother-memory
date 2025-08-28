@@ -1,0 +1,314 @@
+{
+  "project": {
+    "name": "ChronoVolt + MOTHER_BRAIN (MU/TH/UR Console)",
+    "status": "active_locked",
+    "continuity_mode": true,
+    "legacy_access_code": "1047",
+    "packaging_rule": "single_complete_movie_standard_package",
+    "filenames_policy": "lowercase_only"
+  },
+  "repos": {
+    "manifest_repo": "jonfahey2011-dot/chronovolt-manifest",
+    "build_repo": "jonfahey2011-dot/chronovolt-app-build"
+  },
+  "approved_ui_svgs": [
+    "chronovolt_boot_master_redwhite_v1_1.svg",
+    "covenant_master_template_for_main_app_screens_green&black.svg",
+    "covenant_master_template_for_main_app_screens_blue.svg"
+  ],
+  "ui": {
+    "theme": "Alien CRT / Covenant layout",
+    "switching": [
+      "green_crt",
+      "blue_covenant"
+    ],
+    "global_rules": {
+      "text_color": "green_on_black",
+      "geometry_accent": "yellow_ok_text_no",
+      "logo": {
+        "present_pages": [
+          2,
+          3,
+          "4+"
+        ],
+        "position": "top_right",
+        "animation": "coin_spin_horizontal"
+      },
+      "no_blue_on_pages": [
+        2,
+        3
+      ],
+      "date_location_constant": {
+        "date": "28 APRIL 2142",
+        "location": "ZETA 2 RETICULI SYSTEM"
+      },
+      "layout_grid": "3 columns (left stack, center pane, right stack) + top tabs + bottom strip",
+      "svg_regions_binding": [
+        "center_pane",
+        "left_column",
+        "right_column",
+        "bottom_strip",
+        "logo_zone"
+      ]
+    },
+    "pages": {
+      "1_boot": {
+        "background": "red",
+        "title": "CHRONOVOLT",
+        "subtitle": "7102",
+        "sfx": "app/assets/sfx/back.wav",
+        "duration_s": 2.0,
+        "no_date_or_location": true,
+        "transitions_to": 2
+      },
+      "2_wake_login": {
+        "screen": "CRT green on black",
+        "status_sequence": [
+          "MU/TH/UR 9001 WAKING UP…",
+          "MOTHER READY"
+        ],
+        "username": "HUDSON",
+        "password": "█ (blinking)",
+        "date_location_shown": true,
+        "wy_logo": true,
+        "sfx": [
+          "click.wav",
+          "confirm.wav"
+        ],
+        "no_COMPUTER_READY_copy": true
+      },
+      "3_selector_hub": {
+        "color": "green_on_black",
+        "menus": {
+          "mode": [
+            "WATCH",
+            "CLOCK",
+            "CUSTOM"
+          ],
+          "families": [
+            "VFD",
+            "NIXIE",
+            "NUMITRON",
+            "OTHERS"
+          ],
+          "pcb_variants": [
+            "BASIC",
+            "ENHANCED",
+            "ENHANCED_SOUND"
+          ],
+          "tube_counts": {
+            "watch": "2-4",
+            "clock": "2-6",
+            "custom": "1-6"
+          }
+        },
+        "panels": [
+          "SPECS",
+          "INFO",
+          "TubeFamilyGrid"
+        ],
+        "sfx": [
+          "click.wav",
+          "confirm.wav"
+        ]
+      },
+      "4plus_config_render": {
+        "content": "config, render, export; same grid; date in left column; logo top-right"
+      }
+    },
+    "screen_reference_map_file": "screen_reference_map.md"
+  },
+  "assets_structure": {
+    "folders": {
+      "TUBE_CARDS": "card_{family}_{model}.png (visual only)",
+      "CUSTOM NAVIGATION REFS": "custom project images",
+      "MASTER SVGs": "approved master layout svgs"
+    },
+    "master_templates": {
+      "MasterTemplate_v1.0.svg": "hardware plate / case layout",
+      "APPMasterTemplate_v1.0.svg": "UI screen layout"
+    }
+  },
+  "procedural_rules": {
+    "precision_critical": true,
+    "triple_verification": true,
+    "no_visual_guessing": true,
+    "critical_accuracy": true,
+    "cost_risk_flag_for_unverified": true,
+    "sync_rules": [
+      "manifest <-> memory_core <-> file_index always aligned",
+      "all updates overwrite older definitions"
+    ]
+  },
+  "output_pipeline": {
+    "targets": [
+      "schematics",
+      "pcb",
+      "stl",
+      "preview_render",
+      "documentation"
+    ],
+    "ci": "GitHub Actions → artifact ZIP (+ optional Release)",
+    "printer": "Anycubic Cobra II Max",
+    "slicer": "PrusaSlicer 2.9.0"
+  },
+  "crt_integration": {
+    "goal": "run UI on real CRT",
+    "model": "Philips 7BM749/05T (240V 50Hz)",
+    "tasks": [
+      "enclosure adaptation",
+      "embedded_computer_selection (e.g., Raspberry Pi)",
+      "signal_compatibility",
+      "software_on_crt"
+    ]
+  },
+  "hardware": {
+    "baseline_form_factor": "IV-3A VFD watch footprint (slimline)",
+    "module_registry": [
+      {
+        "name": "iv-3a vfd watch",
+        "tubes": 4,
+        "pcb": "dedicated",
+        "case": "slimline",
+        "filenames": []
+      }
+    ],
+    "pcb_variants": [
+      "Basic",
+      "Enhanced",
+      "Enhanced w/ Sound"
+    ],
+    "watch_thresholds": {
+      "max_width_mm": 70.0,
+      "max_thickness_mm": 16.0
+    },
+    "sizing_model_provisional": {
+      "constants": {
+        "bezel_mm": 3.0,
+        "inter_tube_gap_mm": 1.2,
+        "case_margin_mm": 0.8,
+        "board_edge_clearance_mm": 0.8,
+        "glass_thickness_mm": 1.4,
+        "target_thickness_max_mm": 16.0
+      },
+      "vfd_fit_profiles": {
+        "IV-3A": {
+          "tube_od": 13.0,
+          "tube_height": 9.5,
+          "view_len": 20.0,
+          "recommended_4_tube_watch_mm": "~60 x 28.6 x 15.1"
+        },
+        "IV-6": {
+          "tube_od": 16.0,
+          "tube_height": 12.0,
+          "view_len": 22.0,
+          "recommended_4_tube_watch_mm": "~68 x 33.6 x 17.0"
+        },
+        "IV-11": {
+          "tube_od": 19.0,
+          "tube_height": 13.5,
+          "view_len": 25.0,
+          "recommended_4_tube_watch_mm": "~76 x 40.6 x 18.5 (borderline)"
+        },
+        "IV-18": {
+          "tube_od": 22.0,
+          "tube_height": 15.0,
+          "view_len": 30.0,
+          "recommended_4_tube_watch_mm": "~84 x 45.6 x 20.0 (clock only)"
+        }
+      },
+      "rules": [
+        "watch supports 2–4 tubes width<=70 & thickness<=16; otherwise clock"
+      ],
+      "status": "provisional_requires_measurement"
+    },
+    "families": [
+      "VFD",
+      "NIXIE",
+      "NUMITRON",
+      "OTHERS"
+    ]
+  },
+  "custom_projects": [
+    {
+      "name": "Gauss Rifle Ammo Counter",
+      "tubes": "2x Nixie (e.g., IN-16)",
+      "type": "prop",
+      "pipeline": "full (schematic/pcb/stl/render)"
+    },
+    {
+      "name": "Fallout Factory Terminal",
+      "display": "real CRT",
+      "type": "terminal",
+      "pipeline": "full"
+    },
+    {
+      "name": "Fallout Radiation King TV",
+      "display": "modded",
+      "type": "terminal",
+      "pipeline": "full"
+    },
+    {
+      "name": "Prometheus Block Watch",
+      "display": "micro-OLED / translucent resin block",
+      "type": "custom",
+      "menu_path": "CUSTOM > PROMETHEUS BLOCK WATCH",
+      "pipeline": "full"
+    }
+  ],
+  "manifests_and_packages": {
+    "markdown_files": [
+      "chronovolt_project_manifest_md_v1.0.md",
+      "directives_and_procedures_v1.0.md",
+      "roadmap_unlock_v1.0.md",
+      "svg_remaster_and_pipeline_restart_v1.0.md"
+    ],
+    "prospec_versions": [
+      {
+        "version": "v1.1",
+        "packages": [
+          {
+            "name": "chronovolt_full_suite_schematics_v1.1.zip",
+            "sha256": "5cbef6fb407e8e40e5a3070b84981012c6dd13e472dd65ee2b8e9fc6d93b19cd"
+          }
+        ]
+      },
+      {
+        "version": "v1.4",
+        "notes": "all tubes datasheet pass; measured_profiles expanded",
+        "packages": [
+          {
+            "name": "chronovolt_full_suite_schematics_v1.4.zip",
+            "sha256": "8f50948152dd4913116069098e81af6b71777b4bbc47c2b9035c5b05625bb814"
+          }
+        ]
+      },
+      {
+        "version": "v1.5",
+        "notes": "CRT-style schematics; extended tubes added with stubs (requires_measurement)",
+        "packages": [
+          {
+            "name": "chronovolt_full_suite_schematics_v1.5.zip",
+            "sha256": "7d7fbae3ecea1ff52f40bb5ab8d6577ace615a0aa0e1b4c49b932e3916b2ba12"
+          }
+        ]
+      }
+    ]
+  },
+  "rules_lock": [
+    "only approved SVGs",
+    "no deprecated IV-3A UI layouts",
+    "all geometry/logic/text bind to SVG regions",
+    "visual assets are non-authoritative",
+    "all outputs validated and triple-checked"
+  ],
+  "ui_manifest_locked_sequences": {
+    "page1": "red boot, CHRONOVOLT 7102, no date/location",
+    "page2": "green CRT, MU/TH/UR 9001 waking→ready, date/location shown, WY logo, no 'COMPUTER READY'",
+    "page3": "selector hub, green CRT, tube family grid, specs/info panels",
+    "globals": {
+      "date": "28 APRIL 2142",
+      "location": "ZETA 2 RETICULI SYSTEM"
+    }
+  }
+}
