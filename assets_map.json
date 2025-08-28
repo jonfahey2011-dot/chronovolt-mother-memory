@@ -1,0 +1,28 @@
+{
+  "base_raw": "https://raw.githubusercontent.com/jonfahey2011-dot/chronovolt-manifest-references-assets/main",
+  "folders": {
+    "master_svgs": "MASTER SVGS",
+    "tube_cards": "TUBE_CARDS",
+    "crt_theme_cards": "CRT_THEME_CARDS",
+    "custom_refs": "NAV_CARDS",
+    "splash": "001 SLASH SCREEN",
+    "intro": "002 INTRO ANIMATED SCREEN - MUTHUR 9001 WAKING UP",
+    "sounds": "SOUND_ASSETS",
+    "sounds_sfx": "SOUND_ASSETS/sfx",
+    "sounds_voices": "SOUND_ASSETS/voices"
+  },
+  "master_svgs": [
+    "MASTER SVGS/chronovolt_boot_master_redwhite_v1_1.svg",
+    "MASTER SVGS/covenant_master_template_for_main_app_screens_green&black.svg",
+    "MASTER SVGS/covenant_master_template_for_main_app_screens_blue.svg"
+  ],
+  "patterns": {
+    "tube_card": "TUBE_CARDS/card_{family}_{model}.png",
+    "crt_theme": "CRT_THEME_CARDS/theme_{name}_crt_mockup.png"
+  },
+  "examples": {
+    "tube_card_example_url": "https://raw.githubusercontent.com/jonfahey2011-dot/chronovolt-manifest-references-assets/main/TUBE_CARDS/card_nixie_in-14.png",
+    "crt_theme_example_url": "https://raw.githubusercontent.com/jonfahey2011-dot/chronovolt-manifest-references-assets/main/CRT_THEME_CARDS/theme_fallout_crt_mockup.png"
+  },
+  "generated_utc": "2025-08-28T23:59:00Z"
+}
