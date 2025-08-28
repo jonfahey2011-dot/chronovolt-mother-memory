@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "memory_core",
+  "type": "object",
+  "required": [
+    "project",
+    "procedural_rules",
+    "rules_lock",
+    "version"
+  ],
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": [
+        "name",
+        "status"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "continuity_mode": {
+          "type": "boolean"
+        },
+        "legacy_access_code": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "procedural_rules": {
+      "type": "object"
+    },
+    "rules_lock": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ui_manifest_locked_sequences": {
+      "type": "object"
+    },
+    "continuity": {
+      "type": "object"
+    },
+    "version": {
+      "type": "object",
+      "required": [
+        "generated_utc"
+      ],
+      "properties": {
+        "generated_utc": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
