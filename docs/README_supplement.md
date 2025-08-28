@@ -1,14 +1,26 @@
-# Mother Memory — Supplemental Notes
+# Mother Memory — Supplemental Guide
 
-This repo stores the canonical Memory Core for **ChronoVolt + MOTHER_BRAIN**.
+This repo is the **canonical memory** for ChronoVolt + MU/TH/UR Console.
+Use it to rehydrate a new chat or to feed the Electron app.
 
-## Layout
-- Modular JSONs at the root (`memory_core.json`, `ui.json`, `hardware.json`, `projects.json`, `output_pipeline.json`, `references.json`, `catalog.json`)
-- JSON Schemas in `/schemas` for validation and tooling
-- GitHub Action in `.github/workflows/validate-json.yml`
+---
 
-## Update flow
-1. Edit the relevant JSON(s).
-2. Run the validator (push to a branch or trigger workflow_dispatch).
-3. Rebuild `catalog.json` using `tools/catalog_rebuild.py` if sizes changed.
-4. Commit to `main` with a clear message (e.g., `add iv-11 verified measurements`).
+## 1) What each JSON module does
+
+- **MOTHER_BRAIN.json** — One-file compressed superset of everything. If you only pass one file to a new chat, use this.
+- **memory_core.json** — Project invariants (rules, protocols, continuity flags, locked SVG list).
+- **ui.json** — Page stack (Boot → Wake/Login → Selector → Config/Render), geometry/layout invariants, theme switch (green CRT / blue Covenant).
+- **hardware.json** — Tube/spec data, fitment & sizing model, PCB variants, CRT integration plan.
+- **projects.json** — Watches/Clocks/Custom projects (e.g., Gauss Counter, Fallout CRTs, Prometheus Block).
+- **output_pipeline.json** — Export policy (STL, PCB, schematics, docs), packaging expectations.
+- **references.json** — Repo pointers, asset folders, directory snapshots.
+- **catalog.json** — Integrity table (sizes + SHA-256) for all above.
+
+Schemas for each live in **/schemas** and are enforced by CI.
+
+---
+
+## 2) Rehydrate a new chat
+
+Paste the repo URL:
+
