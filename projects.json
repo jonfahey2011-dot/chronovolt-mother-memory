@@ -1,0 +1,47 @@
+{
+  "custom_projects": [
+    {
+      "name": "Gauss Rifle Ammo Counter",
+      "tubes": "2x Nixie (e.g., IN-16)",
+      "type": "prop",
+      "pipeline": "full (schematic/pcb/stl/render)"
+    },
+    {
+      "name": "Fallout Factory Terminal",
+      "display": "real CRT",
+      "type": "terminal",
+      "pipeline": "full"
+    },
+    {
+      "name": "Fallout Radiation King TV",
+      "display": "modded",
+      "type": "terminal",
+      "pipeline": "full"
+    },
+    {
+      "name": "Prometheus Block Watch",
+      "display": "micro-OLED / translucent resin block",
+      "type": "custom",
+      "menu_path": "CUSTOM > PROMETHEUS BLOCK WATCH",
+      "pipeline": "full"
+    }
+  ],
+  "families": [
+    "VFD",
+    "NIXIE",
+    "NUMITRON",
+    "OTHERS"
+  ],
+  "module_registry": [
+    {
+      "name": "iv-3a vfd watch",
+      "tubes": 4,
+      "pcb": "dedicated",
+      "case": "slimline",
+      "filenames": []
+    }
+  ],
+  "version": {
+    "generated_utc": "2025-08-28T18:17:52Z"
+  }
+}

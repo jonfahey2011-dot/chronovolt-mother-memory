@@ -1,0 +1,113 @@
+{
+  "approved_ui_svgs": [
+    "chronovolt_boot_master_redwhite_v1_1.svg",
+    "covenant_master_template_for_main_app_screens_green&black.svg",
+    "covenant_master_template_for_main_app_screens_blue.svg"
+  ],
+  "ui": {
+    "theme": "Alien CRT / Covenant layout",
+    "switching": [
+      "green_crt",
+      "blue_covenant"
+    ],
+    "global_rules": {
+      "text_color": "green_on_black",
+      "geometry_accent": "yellow_ok_text_no",
+      "logo": {
+        "present_pages": [
+          2,
+          3,
+          "4+"
+        ],
+        "position": "top_right",
+        "animation": "coin_spin_horizontal"
+      },
+      "no_blue_on_pages": [
+        2,
+        3
+      ],
+      "date_location_constant": {
+        "date": "28 APRIL 2142",
+        "location": "ZETA 2 RETICULI SYSTEM"
+      },
+      "layout_grid": "3 columns (left stack, center pane, right stack) + top tabs + bottom strip",
+      "svg_regions_binding": [
+        "center_pane",
+        "left_column",
+        "right_column",
+        "bottom_strip",
+        "logo_zone"
+      ]
+    },
+    "pages": {
+      "1_boot": {
+        "background": "red",
+        "title": "CHRONOVOLT",
+        "subtitle": "7102",
+        "sfx": "app/assets/sfx/back.wav",
+        "duration_s": 2.0,
+        "no_date_or_location": true,
+        "transitions_to": 2
+      },
+      "2_wake_login": {
+        "screen": "CRT green on black",
+        "status_sequence": [
+          "MU/TH/UR 9001 WAKING UP…",
+          "MOTHER READY"
+        ],
+        "username": "HUDSON",
+        "password": "█ (blinking)",
+        "date_location_shown": true,
+        "wy_logo": true,
+        "sfx": [
+          "click.wav",
+          "confirm.wav"
+        ],
+        "no_COMPUTER_READY_copy": true
+      },
+      "3_selector_hub": {
+        "color": "green_on_black",
+        "menus": {
+          "mode": [
+            "WATCH",
+            "CLOCK",
+            "CUSTOM"
+          ],
+          "families": [
+            "VFD",
+            "NIXIE",
+            "NUMITRON",
+            "OTHERS"
+          ],
+          "pcb_variants": [
+            "BASIC",
+            "ENHANCED",
+            "ENHANCED_SOUND"
+          ],
+          "tube_counts": {
+            "watch": "2-4",
+            "clock": "2-6",
+            "custom": "1-6"
+          }
+        },
+        "panels": [
+          "SPECS",
+          "INFO",
+          "TubeFamilyGrid"
+        ],
+        "sfx": [
+          "click.wav",
+          "confirm.wav"
+        ]
+      },
+      "4plus_config_render": {
+        "content": "config, render, export; same grid; date in left column; logo top-right"
+      }
+    },
+    "screen_reference_map_file": "screen_reference_map.md"
+  },
+  "screen_reference_map_file": "screen_reference_map.md",
+  "version": {
+    "generated_utc": "2025-08-28T18:17:52Z"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "output_pipeline": {
+    "targets": [
+      "schematics",
+      "pcb",
+      "stl",
+      "preview_render",
+      "documentation"
+    ],
+    "ci": "GitHub Actions → artifact ZIP (+ optional Release)",
+    "printer": "Anycubic Cobra II Max",
+    "slicer": "PrusaSlicer 2.9.0"
+  },
+  "ci_workflow": "github_actions_build_and_release",
+  "version": {
+    "generated_utc": "2025-08-28T18:17:52Z"
+  }
+}

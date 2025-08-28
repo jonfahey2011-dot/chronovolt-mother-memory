@@ -1,0 +1,82 @@
+{
+  "hardware": {
+    "baseline_form_factor": "IV-3A VFD watch footprint (slimline)",
+    "module_registry": [
+      {
+        "name": "iv-3a vfd watch",
+        "tubes": 4,
+        "pcb": "dedicated",
+        "case": "slimline",
+        "filenames": []
+      }
+    ],
+    "pcb_variants": [
+      "Basic",
+      "Enhanced",
+      "Enhanced w/ Sound"
+    ],
+    "watch_thresholds": {
+      "max_width_mm": 70.0,
+      "max_thickness_mm": 16.0
+    },
+    "sizing_model_provisional": {
+      "constants": {
+        "bezel_mm": 3.0,
+        "inter_tube_gap_mm": 1.2,
+        "case_margin_mm": 0.8,
+        "board_edge_clearance_mm": 0.8,
+        "glass_thickness_mm": 1.4,
+        "target_thickness_max_mm": 16.0
+      },
+      "vfd_fit_profiles": {
+        "IV-3A": {
+          "tube_od": 13.0,
+          "tube_height": 9.5,
+          "view_len": 20.0,
+          "recommended_4_tube_watch_mm": "~60 x 28.6 x 15.1"
+        },
+        "IV-6": {
+          "tube_od": 16.0,
+          "tube_height": 12.0,
+          "view_len": 22.0,
+          "recommended_4_tube_watch_mm": "~68 x 33.6 x 17.0"
+        },
+        "IV-11": {
+          "tube_od": 19.0,
+          "tube_height": 13.5,
+          "view_len": 25.0,
+          "recommended_4_tube_watch_mm": "~76 x 40.6 x 18.5 (borderline)"
+        },
+        "IV-18": {
+          "tube_od": 22.0,
+          "tube_height": 15.0,
+          "view_len": 30.0,
+          "recommended_4_tube_watch_mm": "~84 x 45.6 x 20.0 (clock only)"
+        }
+      },
+      "rules": [
+        "watch supports 2–4 tubes width<=70 & thickness<=16; otherwise clock"
+      ],
+      "status": "provisional_requires_measurement"
+    },
+    "families": [
+      "VFD",
+      "NIXIE",
+      "NUMITRON",
+      "OTHERS"
+    ]
+  },
+  "crt_integration": {
+    "goal": "run UI on real CRT",
+    "model": "Philips 7BM749/05T (240V 50Hz)",
+    "tasks": [
+      "enclosure adaptation",
+      "embedded_computer_selection (e.g., Raspberry Pi)",
+      "signal_compatibility",
+      "software_on_crt"
+    ]
+  },
+  "version": {
+    "generated_utc": "2025-08-28T18:17:52Z"
+  }
+}
