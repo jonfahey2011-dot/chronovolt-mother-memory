@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "hardware",
+  "type": "object",
+  "required": [
+    "hardware",
+    "version"
+  ],
+  "properties": {
+    "hardware": {
+      "type": "object"
+    },
+    "crt_integration": {
+      "type": "object"
+    },
+    "version": {
+      "type": "object",
+      "required": [
+        "generated_utc"
+      ],
+      "properties": {
+        "generated_utc": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

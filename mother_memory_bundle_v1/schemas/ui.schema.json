@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ui",
+  "type": "object",
+  "required": [
+    "approved_ui_svgs",
+    "ui",
+    "version"
+  ],
+  "properties": {
+    "approved_ui_svgs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ui": {
+      "type": "object"
+    },
+    "screen_reference_map_file": {
+      "type": "string"
+    },
+    "version": {
+      "type": "object",
+      "required": [
+        "generated_utc"
+      ],
+      "properties": {
+        "generated_utc": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

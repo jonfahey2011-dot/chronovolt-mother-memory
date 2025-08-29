@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "references",
+  "type": "object",
+  "required": [
+    "repos",
+    "version"
+  ],
+  "properties": {
+    "repos": {
+      "type": "object"
+    },
+    "assets_structure": {
+      "type": "object"
+    },
+    "manifests_and_packages": {
+      "type": "object"
+    },
+    "structures_text": {
+      "type": "object"
+    },
+    "mother_brain_meta": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "version": {
+      "type": "object",
+      "required": [
+        "generated_utc"
+      ],
+      "properties": {
+        "generated_utc": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

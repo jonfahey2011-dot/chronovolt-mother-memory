@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "projects",
+  "type": "object",
+  "required": [
+    "custom_projects",
+    "version"
+  ],
+  "properties": {
+    "custom_projects": {
+      "type": "array"
+    },
+    "families": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "module_registry": {
+      "type": "array"
+    },
+    "version": {
+      "type": "object",
+      "required": [
+        "generated_utc"
+      ],
+      "properties": {
+        "generated_utc": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "catalog",
+  "type": "object",
+  "required": [
+    "name",
+    "generated_utc",
+    "modules"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "generated_utc": {
+      "type": "string"
+    },
+    "modules": {
+      "type": "object"
+    },
+    "source_files": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}
