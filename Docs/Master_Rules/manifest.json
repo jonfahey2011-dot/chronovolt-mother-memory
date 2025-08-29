@@ -1,0 +1,32 @@
+{
+  "description": "Clean ChronoVolt manifest (rules + continuity after consolidation)",
+  "sources": [
+    "GitHub",
+    "Dropbox",
+    "Local PC"
+  ],
+  "excluded": [
+    "OneDrive"
+  ],
+  "deny_patterns": [
+    "*MasterTemplate_v1.0*",
+    "*alien_layer1.svg",
+    "*bladerunner_layer1.svg",
+    "*cyberpunk_layer1.svg",
+    "*fallout_layer1.svg",
+    "*/OLD/*",
+    "*/MASTER_V1+V2/*",
+    "*/Important_Renders_BACKUP/*",
+    "*/Archive/*",
+    "*/Mockups/*"
+  ],
+  "allow_only": [
+    "Assets/**",
+    "Themes/**",
+    "Voices/**",
+    "Templates/**",
+    "Software/**",
+    "Docs/**",
+    "QA_&_Verification/**"
+  ]
+}

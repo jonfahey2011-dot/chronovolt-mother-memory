@@ -1,0 +1,941 @@
+
+====== ChronoVolt_Master_Project_Root ======
+C:\Users\jonfa\Dropbox\MASTER_PROJECT_ROOT\ChronoVolt_Master_Project_Root
+
+Folder PATH listing for volume OS
+Volume serial number is 44D8-D6D0
+C:\USERS\JONFA\DROPBOX\MASTER_PROJECT_ROOT\CHRONOVOLT_MASTER_PROJECT_ROOT
+|   bootstrap_chronovolt_Npass.ps1
+|   BOOTSTRAP_FIX_HISTORY.txt
+|   create_all_voice_folders.ps1
+|   MASTER_TRIGGER_PANEL.bat
+|   README.txt
+|   run_create_voice_folders.bat
+|   SCRIPT TO RUN create_all_voice_folders BAT FILE.txt
+|   
++---AI
++---Assets
++---Baseplates
+|       Baseplate_NoHoles.png
+|       
++---ChronoVolt_Final_Voices_v1.0
+|       ALIEN_FINAL.wav
+|       BLADERUNNER_FINAL.wav
+|       BTTF_FINAL.wav
+|       COFFEEMACHINE_FINAL.wav
+|       CYBERPUNK_FINAL.wav
+|       FALLOUTTERMINAL_FINAL.wav
+|       FALLOUT_FINAL.wav
+|       HAL9000_FINAL.wav
+|       MOTHER_CALM_v1_FINAL.wav
+|       MOTHER_DISTRESS_v1_FINAL.wav
+|       TALKYTOASTER_FINAL.wav
+|       
++---Collages
+|       03_NEWEST_Corrected_Collage_Without_Logo_Errors_On_Artwork.png
+|       04_EarlierCorrectOutputStyleFromRenderingShowingLayer1Overlap.png
+|       Corrected_Collage_Render.png
+|       MASTER_COLLAGE_FOR_ARTWORK.png
+|       
++---Design
+|   |   README.txt
+|   |   
+|   +---Artwork
+|   |       03_NEWEST_Corrected_Collage_Without_Logo_Errors_On_Artwork.png
+|   |       04_EarlierCorrectOutputStyleFromRenderingShowingLayer1Overlap.png
+|   |       Corrected_Collage_Render.png
+|   |       MASTER_COLLAGE_FOR_ARTWORK.png
+|   |       README.txt
+|   |       
+|   +---BasePlate
+|   |       MasterTemplate_v1.0.png
+|   |       MasterTemplate_v1.0.svg
+|   |       Master_Template_FrontPlate.png
+|   |       OLD-SCREWHOLES.png
+|   |       README.txt
+|   |       REF_FOR_TUBE_OPENING_PLACEMENTS1.png
+|   |       REF_FOR_TUBE_OPENING_PLACEMENTS2.png
+|   |       REF_FOR_TUBE_OPENING_PLACEMENTS3.png
+|   |       
+|   +---Logos
+|   |       README.txt
+|   |       
+|   \---Renders
+|           README.txt
+|           
++---Docs
+|   |   README.txt
+|   |   
+|   +---Build_Notes
+|   |       README.txt
+|   |       
+|   +---Master_Rules
+|   |       00_MASTER_RULESET_ALL_PROJECTS.md
+|   |       01_CHRONOVOLT_Type1_Rules.md
+|   |       02_ASSET_VALIDATION_QA.md
+|   |       03_TRANSFER_POLICY_NO_CHAT_DOWNLOADS.md
+|   |       04_LANGUAGE_ENGLISH_ONLY.md
+|   |       05_PACKAGING_MULTIPART_GUIDE.md
+|   |       README.txt
+|   |       
+|   \---User_Manual
+|           README.txt
+|           
++---Engraving_Tool
++---Manufacturing
+|   |   README.txt
+|   |   
+|   +---3D_Print
+|   |       README.txt
+|   |       
+|   +---CNC_&_Laser
+|   |       README.txt
+|   |       
+|   \---PCB
+|       |   README.txt
+|       |   
+|       +---BOM
+|       |       README.txt
+|       |       
+|       +---Gerbers
+|       |       README.txt
+|       |       
+|       \---Schemas
+|               README.txt
+|               
++---Mother_Memory_Files
++---Orders_&_Kits
+|       README.txt
+|       
++---PCB_Files
++---QA_&_Verification
+|       README.txt
+|       
++---References
+|       REF_FOR_TUBE_OPENING_PLACEMENTS1.png
+|       REF_FOR_TUBE_OPENING_PLACEMENTS2.png
+|       REF_FOR_TUBE_OPENING_PLACEMENTS3.png
+|       
++---Reference_Materials
++---Scripts
++---Software
+|   |   engrave_pass.py
+|   |   README.txt
+|   |   
+|   +---Assets
+|   |   \---UI
+|   |           README.txt
+|   |           
+|   +---ChronoVaultSelector
+|   |       README.txt
+|   |       
+|   \---Voices
+|           README.txt
+|           
++---Templates
+|       MasterTemplate_GeometryVerification_Render.png
+|       MasterTemplate_v1.0.png
+|       MasterTemplate_v1.0.svg
+|       Master_Template_FrontPlate.png
+|       OLD-SCREWHOLES.png
+|       
++---Themes
+|   +---ALIEN
+|   |       README.txt
+|   |       
+|   +---BackToFuture
+|   |       README.txt
+|   |       
+|   +---BLADERUNNER
+|   |       README.txt
+|   |       
+|   +---CYBERPUNK
+|   |       README.txt
+|   |       
+|   +---FALLOUT
+|   |       README.txt
+|   |       
+|   \---FALLOUT GAUSS RIFLE THEME 6
++---TubeFamilies
+|   +---NIXIE
+|   |   +---IN14
+|   |   |       README.txt
+|   |   |       
+|   |   \---IN1_to_IN12
+|   |           README.txt
+|   |           
+|   +---NUMITRON
+|   |       README.txt
+|   |       
+|   \---VFD
+|       +---IV1_IV2_IV4_IV5_IV6
+|       |       README.txt
+|       |       
+|       +---IV3
+|       |       README.txt
+|       |       
+|       \---IV3A
+|               README.txt
+|               
+\---Voices
+    |   conversion_log.txt
+    |   Convert_All_MP3s_To_Final_WAV_Logging.ps1
+    |   ffmpeg.exe
+    |   Package_Final_WAVs.ps1
+    |   RUN_CONVERT_ALL_MP3s_TO_WAV_FINAL.bat
+    |   
+    +---ALIEN
+    |       ALIEN_FINAL.wav
+    |       
+    +---BACK_TO_THE_FUTURE
+    |       BTTF_FINAL.wav
+    |       
+    +---BLADE_RUNNER
+    |       BLADERUNNER_FINAL.wav
+    |       
+    +---COFFEE_MACHINE
+    |       COFFEEMACHINE_FINAL.wav
+    |       
+    +---CYBERPUNK
+    |       CYBERPUNK_FINAL.wav
+    |       
+    +---FALLOUT
+    |       FALLOUT_FINAL.wav
+    |       
+    +---FALLOUT_TERMINAL
+    |       FALLOUTTERMINAL_FINAL.wav
+    |       
+    +---HAL_9000
+    |       HAL9000_FINAL.wav
+    |       
+    +---MOTHER
+    |       MOTHER_CALM_v1_FINAL.wav
+    |       MOTHER_DISTRESS_v1_FINAL.wav
+    |       
+    +---MOTHER_LIVE_FEED
+    \---TALKY_TOASTER
+            TALKYTOASTER_FINAL.wav
+            
+
+====== Dropbox Desktop_Backup (NOT FOUND) ======
+C:\Users\jonfa\Dropbox\Desktop_Backup
+
+
+====== True Desktop (OneDrive) ======
+C:\Users\jonfa\OneDrive\Desktop
+
+Folder PATH listing for volume OS
+Volume serial number is 44D8-D6D0
+C:\USERS\JONFA\ONEDRIVE\DESKTOP
+|   desktop_structure.txt
+|   Dropbox.lnk
+|   dropbox_structure.txt
+|   export_all_local_structure.ps1
+|   export_all_structure.ps1
+|   Google Chrome.lnk
+|   Install_ChronoVolt.bat
+|   jonfa - Shortcut.lnk
+|   Log_Bootstrap_Milestone.ps1
+|   Microsoft Edge.lnk
+|   RUN_MOTHER_SYSTEM.bat - Shortcut.lnk
+|   Setup_ChronoVolt_Suite.ps1
+|   verify_structures.ps1
+|   Windows PowerShell.lnk
+|   _VERIFIED_STRUCTURE_OUTPUT.txt
+|   
++---AUDIO VOICE BACK UP
+|       ALIEN.mp3
+|       BLADERUNNER.mp3
+|       BTTF.mp3
+|       COFFEEMACHINE.mp3
+|       CYBERPUNK.mp3
+|       FALLOUT.mp3
+|       FALLOUTTERMINAL.mp3
+|       HAL9000.mp3
+|       MOTHER_CALM_v1.mp3
+|       MOTHER_DISTRESS_v1.mp3
+|       TALKYTOASTER.mp3
+|       
++---Important_Renders_BACKUP
+|   |   03_NEWEST_Corrected_Collage_Without_Logo_Errors_On_Artwork.png
+|   |   04_EarlierCorrectOutputStyleFromRenderingShowingLayer1Overlap.png
+|   |   ALIEN black bas-relief style plate.png
+|   |   ALIENLAYER1_HOLES.png
+|   |   ALIENLAYER1_withoutHOLES.png
+|   |   ALIENLAYER1_withoutHOLESeditedinFWversionBYme.png
+|   |   ALL5_Fixer.ps1
+|   |   AllFive_Builder.ps1
+|   |   BACKTOTHEFUTURE black bas-relief style plate.png
+|   |   BLADERUNNER black bas-relief style plate.png
+|   |   Corrected_Collage_Render.png
+|   |   CYBERPUNK black bas-relief style plate.png
+|   |   FALLOUT black bas-relief style plate.png
+|   |   MasterTemplate_GeometryVerification_Render.png
+|   |   MasterTemplate_v1.0.png
+|   |   MasterTemplate_v1.0.svg
+|   |   MASTER_COLLAGE_FOR_ARTWORK.png
+|   |   Master_Template_FrontPlate.png
+|   |   OLD-SCREWHOLES.png
+|   |   REF_FOR_TUBE_OPENING_PLACEMENTS1.png
+|   |   REF_FOR_TUBE_OPENING_PLACEMENTS2.png
+|   |   REF_FOR_TUBE_OPENING_PLACEMENTS3.png
+|   |   
+|   +---MASTER_RENDERS
+|   |       ALIEN black bas-relief style plate.png
+|   |       ALIENLAYER1_withoutHOLESeditedinFWversionBYme.png
+|   |       BACKTOTHEFUTURE black bas-relief style plate.png
+|   |       BLADERUNNER black bas-relief style plate.png
+|   |       CYBERPUNK black bas-relief style plate.png
+|   |       FALLOUT black bas-relief style plate.png
+|   |       
+|   \---ThemesBEFORE_AI_REFINING
+|       +---ALIEN
+|       |       ALIEN black bas-relief style plate.png
+|       |       ALIEN black bas-relief style plate.png.bak_20250819_193921
+|       |       ALIEN black bas-relief style plate_ORIGINAL.png
+|       |       ALIEN_plate_NO_HOLES.png
+|       |       README.txt
+|       |       
+|       +---BackToFuture
+|       |       BACKTOTHEFUTURE black bas-relief style plate.png
+|       |       BACKTOTHEFUTURE_plate_NO_HOLES.png
+|       |       README.txt
+|       |       
+|       +---BLADERUNNER
+|       |       BLADERUNNER black bas-relief style plate.png
+|       |       BLADERUNNER_plate_NO_HOLES.png
+|       |       README.txt
+|       |       
+|       +---CYBERPUNK
+|       |       CYBERPUNK black bas-relief style plate.png
+|       |       CYBERPUNK_plate_NO_HOLES.png
+|       |       README.txt
+|       |       
+|       \---FALLOUT
+|               FALLOUT black bas-relief style plate.png
+|               FALLOUT_plate_NO_HOLES.png
+|               README.txt
+|               
++---MASTER RENDERS NEED FOR PROCESS
+|       ALIEN black bas-relief style plate.png
+|       BACKTOTHEFUTURE black bas-relief style plate.png
+|       BLADERUNNER black bas-relief style plate.png
+|       CYBERPUNK black bas-relief style plate.png
+|       FALLOUT black bas-relief style plate.png
+|       
++---MOTHER_BRAIN FILES
+|   |   ALIEN_ART_STORYBOARD_HR.zip
+|   |   Artwork Samples.7z
+|   |   ChronoVoltLOGO.zip
+|   |   ChronoVolt_Master_v5_FINAL_VERIFIED_FULL_SUITE.zip
+|   |   ChronoVolt_Master_v6_1_FINAL_FULL_SUITE.zip
+|   |   ChronoVolt_Master_v6_FINAL_RELEASE.zip
+|   |   ChronoVolt_Master_v6_FIXED_FLATTENED.zip
+|   |   ChronoVolt_Master_v6_FULL.zip
+|   |   ChronoVolt_Master_v6_FULL_SUITE.zip
+|   |   ChronoVolt_Master_v6_REPAIRED.zip
+|   |   ChronoVolt_Master_v6_VERIFIED_RELEASE.zip
+|   |   ChronoVolt_Phase4_v6.zip
+|   |   ChronoVolt_Phase4_v6_COMPLETE_FIXED.zip
+|   |   ChronoVolt_SessionLog_Today.zip
+|   |   ChronoVolt_v6_MASTER_FULL_SUITE_BROWSER_PREVIEW.zip
+|   |   CORONAVOLT_Final_Kit.zip
+|   |   desktop_structure.txt
+|   |   dropbox_structure.txt
+|   |   FULL_SYSTEM_STRUCTURE.txt
+|   |   MASTER_SUITE_v4.0.1_FINAL.zip
+|   |   mother-brain-final-v3.3-unified-kit.zip
+|   |   mother-brain-final-v4.0-verified-master.zip
+|   |   mother-brain-final-v4.1-verified-master.zip
+|   |   MOTHER_BRAIN - Copy.txt
+|   |   MOTHER_BRAIN.json
+|   |   SULACO_SOUNDS_v1.0.zip
+|   |   systemstructure.7z
+|   |   _VERIFIED_STRUCTURE_OUTPUT.txt
+|   |   
+|   +---(NOT FOR UPLOAD TO MOTHER) BUT KEEP
+|   |       DIR & FILE RECORD FOR MOTHER.txt
+|   |       
+|   +---ChronoVolt WORKING BUT MIXED UP
+|   |   |   AlienMotherConsole.ps1
+|   |   |   build_all_desktop.bat
+|   |   |   build_android.bat
+|   |   |   build_android.ps1
+|   |   |   build_desktop.bat
+|   |   |   build_desktop.ps1
+|   |   |   build_ios.sh
+|   |   |   CHANGELOG.md
+|   |   |   electron_package.json
+|   |   |   index.html
+|   |   |   main.js
+|   |   |   make_manifest.py
+|   |   |   manifest.json
+|   |   |   README.txt
+|   |   |   README_INSTALL.txt
+|   |   |   setup_environment.bat
+|   |   |   start.ps1
+|   |   |   Start_ChronoVolt.bat
+|   |   |   verify_sizes.bat
+|   |   |   verify_sizes.py
+|   |   |   verify_sizes.sh
+|   |   |   VERSION.txt
+|   |   |   voice_index.json
+|   |   |   
+|   |   +---app
+|   |   |   |   index.html
+|   |   |   |   
+|   |   |   +---Assets
+|   |   |   |   +---Branding
+|   |   |   |   |       CHRONOVOLT_primary_black.png
+|   |   |   |   |       CHRONOVOLT_primary_transparent.png
+|   |   |   |   |       README.txt
+|   |   |   |   |       
+|   |   |   |   +---Graphics
+|   |   |   |   |       03_NEWEST_Corrected_Collage_Without_Logo_Errors_On_Artwork.png
+|   |   |   |   |       ALIEN black bas-relief style plate.png
+|   |   |   |   |       ALIEN black bas-relief style plate_ORIGINAL.png
+|   |   |   |   |       ALIENCOMPUTER1.png
+|   |   |   |   |       ALIENCOMPUTER2.png
+|   |   |   |   |       ALIENCOMPUTER3.png
+|   |   |   |   |       ALIENCOMPUTER4.png
+|   |   |   |   |       ALIENCOMPUTER5.png
+|   |   |   |   |       ALIENCOMPUTER6.png
+|   |   |   |   |       ALIENCOMPUTER7.png
+|   |   |   |   |       ALIENCOMPUTER8.png
+|   |   |   |   |       BACKTOTHEFUTURE black bas-relief style plate.png
+|   |   |   |   |       BLADERUNNER black bas-relief style plate.png
+|   |   |   |   |       Corrected_Collage_Render.png
+|   |   |   |   |       CYBERPUNK black bas-relief style plate.png
+|   |   |   |   |       FALLOUT black bas-relief style plate.png
+|   |   |   |   |       MasterTemplate_GeometryVerification_Render.png
+|   |   |   |   |       MasterTemplate_v1.0.png
+|   |   |   |   |       MasterTemplate_v1.0.svg
+|   |   |   |   |       MASTER_COLLAGE_FOR_ARTWORK.png
+|   |   |   |   |       Master_Template_FrontPlate.png
+|   |   |   |   |       
+|   |   |   |   +---logo
+|   |   |   |   |       chronovolt_primary.png
+|   |   |   |   |       
+|   |   |   |   +---sfx
+|   |   |   |   |       sulaco_fx_001_0.174s.wav
+|   |   |   |   |       sulaco_fx_002_1.398s.wav
+|   |   |   |   |       sulaco_fx_003_0.108s.wav
+|   |   |   |   |       sulaco_fx_004_0.769s.wav
+|   |   |   |   |       sulaco_fx_005_0.594s.wav
+|   |   |   |   |       sulaco_fx_006_0.353s.wav
+|   |   |   |   |       sulaco_fx_007_0.226s.wav
+|   |   |   |   |       sulaco_fx_008_0.834s.wav
+|   |   |   |   |       sulaco_fx_009_0.896s.wav
+|   |   |   |   |       sulaco_fx_010_0.089s.wav
+|   |   |   |   |       sulaco_fx_011_0.115s.wav
+|   |   |   |   |       sulaco_fx_012_0.087s.wav
+|   |   |   |   |       sulaco_fx_013_0.162s.wav
+|   |   |   |   |       sulaco_fx_014_0.181s.wav
+|   |   |   |   |       sulaco_fx_015_0.778s.wav
+|   |   |   |   |       sulaco_fx_016_0.202s.wav
+|   |   |   |   |       sulaco_fx_017_0.130s.wav
+|   |   |   |   |       sulaco_fx_018_0.792s.wav
+|   |   |   |   |       sulaco_fx_019_0.255s.wav
+|   |   |   |   |       sulaco_fx_020_0.123s.wav
+|   |   |   |   |       sulaco_fx_021_0.105s.wav
+|   |   |   |   |       sulaco_fx_022_0.100s.wav
+|   |   |   |   |       sulaco_fx_023_0.417s.wav
+|   |   |   |   |       sulaco_fx_024_0.475s.wav
+|   |   |   |   |       sulaco_fx_025_0.119s.wav
+|   |   |   |   |       sulaco_fx_026_0.168s.wav
+|   |   |   |   |       sulaco_fx_027_0.254s.wav
+|   |   |   |   |       sulaco_fx_028_0.125s.wav
+|   |   |   |   |       sulaco_fx_029_0.142s.wav
+|   |   |   |   |       sulaco_fx_030_0.099s.wav
+|   |   |   |   |       sulaco_fx_031_0.242s.wav
+|   |   |   |   |       sulaco_fx_032_0.079s.wav
+|   |   |   |   |       sulaco_fx_033_0.413s.wav
+|   |   |   |   |       sulaco_fx_034_0.219s.wav
+|   |   |   |   |       sulaco_fx_035_0.670s.wav
+|   |   |   |   |       sulaco_fx_036_0.065s.wav
+|   |   |   |   |       sulaco_fx_037_0.350s.wav
+|   |   |   |   |       
+|   |   |   |   +---Sounds
+|   |   |   |   |   \---Sulaco
+|   |   |   |   |           soundmap.json
+|   |   |   |   |           sulaco_fx_001.wav
+|   |   |   |   |           sulaco_fx_002.wav
+|   |   |   |   |           sulaco_fx_003.wav
+|   |   |   |   |           sulaco_fx_004.wav
+|   |   |   |   |           sulaco_fx_005.wav
+|   |   |   |   |           sulaco_fx_006.wav
+|   |   |   |   |           sulaco_fx_007.wav
+|   |   |   |   |           sulaco_fx_008.wav
+|   |   |   |   |           sulaco_fx_009.wav
+|   |   |   |   |           sulaco_fx_010.wav
+|   |   |   |   |           sulaco_fx_011.wav
+|   |   |   |   |           sulaco_fx_012.wav
+|   |   |   |   |           sulaco_fx_013.wav
+|   |   |   |   |           sulaco_fx_014.wav
+|   |   |   |   |           sulaco_fx_015.wav
+|   |   |   |   |           sulaco_fx_016.wav
+|   |   |   |   |           sulaco_fx_017.wav
+|   |   |   |   |           sulaco_fx_018.wav
+|   |   |   |   |           sulaco_fx_019.wav
+|   |   |   |   |           sulaco_fx_020.wav
+|   |   |   |   |           sulaco_fx_021.wav
+|   |   |   |   |           sulaco_fx_022.wav
+|   |   |   |   |           sulaco_fx_023.wav
+|   |   |   |   |           sulaco_fx_024.wav
+|   |   |   |   |           sulaco_fx_025.wav
+|   |   |   |   |           sulaco_fx_026.wav
+|   |   |   |   |           sulaco_fx_027.wav
+|   |   |   |   |           sulaco_fx_028.wav
+|   |   |   |   |           sulaco_fx_029.wav
+|   |   |   |   |           sulaco_fx_030.wav
+|   |   |   |   |           sulaco_fx_031.wav
+|   |   |   |   |           sulaco_fx_032.wav
+|   |   |   |   |           sulaco_fx_033.wav
+|   |   |   |   |           sulaco_fx_034.wav
+|   |   |   |   |           sulaco_fx_035.wav
+|   |   |   |   |           sulaco_fx_036.wav
+|   |   |   |   |           sulaco_fx_037.wav
+|   |   |   |   |           
+|   |   |   |   +---Voices
+|   |   |   |   |       ALIEN.wav
+|   |   |   |   |       BLADERUNNER.wav
+|   |   |   |   |       BTTF.wav
+|   |   |   |   |       COFFEEMACHINE.wav
+|   |   |   |   |       CYBERPUNK.wav
+|   |   |   |   |       FALLOUT.wav
+|   |   |   |   |       FALLOUTTERMINAL.wav
+|   |   |   |   |       HAL9000.wav
+|   |   |   |   |       MOTHER_CALM_v1.wav
+|   |   |   |   |       MOTHER_DISTRESS_v1.wav
+|   |   |   |   |       TALKYTOASTER.wav
+|   |   |   |   |       
+|   |   |   |   \---Zones
+|   |   |   |           ZonePack_Aliens_Sulaco_v1.json
+|   |   |   |           
+|   |   |   +---Config
+|   |   |   |       app.config.json
+|   |   |   |       
+|   |   |   \---Voices
+|   |   |           ALIEN.mp3
+|   |   |           ALIEN_FINAL.wav
+|   |   |           BLADERUNNER.mp3
+|   |   |           BLADERUNNER_FINAL.wav
+|   |   |           BTTF.mp3
+|   |   |           BTTF_FINAL.wav
+|   |   |           COFFEEMACHINE.mp3
+|   |   |           COFFEEMACHINE_FINAL.wav
+|   |   |           CYBERPUNK.mp3
+|   |   |           CYBERPUNK_FINAL.wav
+|   |   |           FALLOUT.mp3
+|   |   |           FALLOUTTERMINAL.mp3
+|   |   |           FALLOUTTERMINAL_FINAL.wav
+|   |   |           FALLOUT_FINAL.wav
+|   |   |           HAL9000.mp3
+|   |   |           HAL9000_FINAL.wav
+|   |   |           MOTHER_CALM_v1.mp3
+|   |   |           MOTHER_CALM_v1_FINAL.wav
+|   |   |           MOTHER_DISTRESS_v1.mp3
+|   |   |           MOTHER_DISTRESS_v1_FINAL.wav
+|   |   |           TALKYTOASTER.mp3
+|   |   |           
+|   |   +---Assets
+|   |   |   +---Branding
+|   |   |   |       CHRONOVOLT_primary_black.png
+|   |   |   |       CHRONOVOLT_primary_transparent.png
+|   |   |   |       README.txt
+|   |   |   |       
+|   |   |   +---Graphics
+|   |   |   |       03_NEWEST_Corrected_Collage_Without_Logo_Errors_On_Artwork.png
+|   |   |   |       ALIEN black bas-relief style plate.png
+|   |   |   |       ALIEN black bas-relief style plate_ORIGINAL.png
+|   |   |   |       ALIENCOMPUTER1.png
+|   |   |   |       ALIENCOMPUTER2.png
+|   |   |   |       ALIENCOMPUTER3.png
+|   |   |   |       ALIENCOMPUTER4.png
+|   |   |   |       ALIENCOMPUTER5.png
+|   |   |   |       ALIENCOMPUTER6.png
+|   |   |   |       ALIENCOMPUTER7.png
+|   |   |   |       ALIENCOMPUTER8.png
+|   |   |   |       BACKTOTHEFUTURE black bas-relief style plate.png
+|   |   |   |       BLADERUNNER black bas-relief style plate.png
+|   |   |   |       Corrected_Collage_Render.png
+|   |   |   |       CYBERPUNK black bas-relief style plate.png
+|   |   |   |       FALLOUT black bas-relief style plate.png
+|   |   |   |       MasterTemplate_GeometryVerification_Render.png
+|   |   |   |       MasterTemplate_v1.0.png
+|   |   |   |       MasterTemplate_v1.0.svg
+|   |   |   |       MASTER_COLLAGE_FOR_ARTWORK.png
+|   |   |   |       Master_Template_FrontPlate.png
+|   |   |   |       
+|   |   |   +---logo
+|   |   |   |       chronovolt_primary.png
+|   |   |   |       
+|   |   |   +---sfx
+|   |   |   |       sulaco_fx_001_0.174s.wav
+|   |   |   |       sulaco_fx_002_1.398s.wav
+|   |   |   |       sulaco_fx_003_0.108s.wav
+|   |   |   |       sulaco_fx_004_0.769s.wav
+|   |   |   |       sulaco_fx_005_0.594s.wav
+|   |   |   |       sulaco_fx_006_0.353s.wav
+|   |   |   |       sulaco_fx_007_0.226s.wav
+|   |   |   |       sulaco_fx_008_0.834s.wav
+|   |   |   |       sulaco_fx_009_0.896s.wav
+|   |   |   |       sulaco_fx_010_0.089s.wav
+|   |   |   |       sulaco_fx_011_0.115s.wav
+|   |   |   |       sulaco_fx_012_0.087s.wav
+|   |   |   |       sulaco_fx_013_0.162s.wav
+|   |   |   |       sulaco_fx_014_0.181s.wav
+|   |   |   |       sulaco_fx_015_0.778s.wav
+|   |   |   |       sulaco_fx_016_0.202s.wav
+|   |   |   |       sulaco_fx_017_0.130s.wav
+|   |   |   |       sulaco_fx_018_0.792s.wav
+|   |   |   |       sulaco_fx_019_0.255s.wav
+|   |   |   |       sulaco_fx_020_0.123s.wav
+|   |   |   |       sulaco_fx_021_0.105s.wav
+|   |   |   |       sulaco_fx_022_0.100s.wav
+|   |   |   |       sulaco_fx_023_0.417s.wav
+|   |   |   |       sulaco_fx_024_0.475s.wav
+|   |   |   |       sulaco_fx_025_0.119s.wav
+|   |   |   |       sulaco_fx_026_0.168s.wav
+|   |   |   |       sulaco_fx_027_0.254s.wav
+|   |   |   |       sulaco_fx_028_0.125s.wav
+|   |   |   |       sulaco_fx_029_0.142s.wav
+|   |   |   |       sulaco_fx_030_0.099s.wav
+|   |   |   |       sulaco_fx_031_0.242s.wav
+|   |   |   |       sulaco_fx_032_0.079s.wav
+|   |   |   |       sulaco_fx_033_0.413s.wav
+|   |   |   |       sulaco_fx_034_0.219s.wav
+|   |   |   |       sulaco_fx_035_0.670s.wav
+|   |   |   |       sulaco_fx_036_0.065s.wav
+|   |   |   |       sulaco_fx_037_0.350s.wav
+|   |   |   |       
+|   |   |   +---Sounds
+|   |   |   |   \---Sulaco
+|   |   |   |           soundmap.json
+|   |   |   |           sulaco_fx_001.wav
+|   |   |   |           sulaco_fx_002.wav
+|   |   |   |           sulaco_fx_003.wav
+|   |   |   |           sulaco_fx_004.wav
+|   |   |   |           sulaco_fx_005.wav
+|   |   |   |           sulaco_fx_006.wav
+|   |   |   |           sulaco_fx_007.wav
+|   |   |   |           sulaco_fx_008.wav
+|   |   |   |           sulaco_fx_009.wav
+|   |   |   |           sulaco_fx_010.wav
+|   |   |   |           sulaco_fx_011.wav
+|   |   |   |           sulaco_fx_012.wav
+|   |   |   |           sulaco_fx_013.wav
+|   |   |   |           sulaco_fx_014.wav
+|   |   |   |           sulaco_fx_015.wav
+|   |   |   |           sulaco_fx_016.wav
+|   |   |   |           sulaco_fx_017.wav
+|   |   |   |           sulaco_fx_018.wav
+|   |   |   |           sulaco_fx_019.wav
+|   |   |   |           sulaco_fx_020.wav
+|   |   |   |           sulaco_fx_021.wav
+|   |   |   |           sulaco_fx_022.wav
+|   |   |   |           sulaco_fx_023.wav
+|   |   |   |           sulaco_fx_024.wav
+|   |   |   |           sulaco_fx_025.wav
+|   |   |   |           sulaco_fx_026.wav
+|   |   |   |           sulaco_fx_027.wav
+|   |   |   |           sulaco_fx_028.wav
+|   |   |   |           sulaco_fx_029.wav
+|   |   |   |           sulaco_fx_030.wav
+|   |   |   |           sulaco_fx_031.wav
+|   |   |   |           sulaco_fx_032.wav
+|   |   |   |           sulaco_fx_033.wav
+|   |   |   |           sulaco_fx_034.wav
+|   |   |   |           sulaco_fx_035.wav
+|   |   |   |           sulaco_fx_036.wav
+|   |   |   |           sulaco_fx_037.wav
+|   |   |   |           
+|   |   |   +---Voices
+|   |   |   |       ALIEN.wav
+|   |   |   |       BLADERUNNER.wav
+|   |   |   |       BTTF.wav
+|   |   |   |       COFFEEMACHINE.wav
+|   |   |   |       CYBERPUNK.wav
+|   |   |   |       FALLOUT.wav
+|   |   |   |       FALLOUTTERMINAL.wav
+|   |   |   |       HAL9000.wav
+|   |   |   |       MOTHER_CALM_v1.wav
+|   |   |   |       MOTHER_DISTRESS_v1.wav
+|   |   |   |       TALKYTOASTER.wav
+|   |   |   |       
+|   |   |   \---Zones
+|   |   |           ZonePack_Aliens_Sulaco_v1.json
+|   |   |           
+|   |   +---Backup_Meta
+|   |   |       snapshot_v5.json
+|   |   |       
+|   |   +---build
+|   |   |   |   icon.png
+|   |   |   |   splash_1080x1920.png
+|   |   |   |   splash_1242x2208.png
+|   |   |   |   splash_1280x720.png
+|   |   |   |   splash_1920x1080.png
+|   |   |   |   splash_2048x2732.png
+|   |   |   |   splash_2208x1242.png
+|   |   |   |   splash_2732x2048.png
+|   |   |   |   splash_640x1136.png
+|   |   |   |   splash_brand.png
+|   |   |   |   
+|   |   |   +---android_res
+|   |   |   |   +---mipmap-hdpi
+|   |   |   |   |       ic_launcher.png
+|   |   |   |   |       
+|   |   |   |   +---mipmap-mdpi
+|   |   |   |   |       ic_launcher.png
+|   |   |   |   |       
+|   |   |   |   +---mipmap-xhdpi
+|   |   |   |   |       ic_launcher.png
+|   |   |   |   |       
+|   |   |   |   +---mipmap-xxhdpi
+|   |   |   |   |       ic_launcher.png
+|   |   |   |   |       
+|   |   |   |   \---mipmap-xxxhdpi
+|   |   |   |           ic_launcher.png
+|   |   |   |           
+|   |   |   +---icons
+|   |   |   |       icon_102.png
+|   |   |   |       icon_114.png
+|   |   |   |       icon_120.png
+|   |   |   |       icon_128.png
+|   |   |   |       icon_144.png
+|   |   |   |       icon_152.png
+|   |   |   |       icon_16.png
+|   |   |   |       icon_167.png
+|   |   |   |       icon_180.png
+|   |   |   |       icon_192.png
+|   |   |   |       icon_20.png
+|   |   |   |       icon_24.png
+|   |   |   |       icon_256.png
+|   |   |   |       icon_29.png
+|   |   |   |       icon_32.png
+|   |   |   |       icon_36.png
+|   |   |   |       icon_40.png
+|   |   |   |       icon_48.png
+|   |   |   |       icon_512.png
+|   |   |   |       icon_57.png
+|   |   |   |       icon_58.png
+|   |   |   |       icon_60.png
+|   |   |   |       icon_64.png
+|   |   |   |       icon_72.png
+|   |   |   |       icon_76.png
+|   |   |   |       icon_80.png
+|   |   |   |       icon_87.png
+|   |   |   |       icon_96.png
+|   |   |   |       
+|   |   |   \---ios_icons
+|   |   |           icon_114.png
+|   |   |           icon_120.png
+|   |   |           icon_152.png
+|   |   |           icon_167.png
+|   |   |           icon_180.png
+|   |   |           icon_29.png
+|   |   |           icon_40.png
+|   |   |           icon_57.png
+|   |   |           icon_58.png
+|   |   |           icon_60.png
+|   |   |           icon_76.png
+|   |   |           icon_80.png
+|   |   |           icon_87.png
+|   |   |           
+|   |   +---Config
+|   |   |       app.config.json
+|   |   |       
+|   |   +---Docs
+|   |   |       QA_CHECKLIST.txt
+|   |   |       README_MASTER.txt
+|   |   |       
+|   |   +---Mobile
+|   |   |       index.html
+|   |   |       manifest.json
+|   |   |       
+|   |   +---Portable
+|   |   |   |   manifest.json
+|   |   |   |   run_console.bat
+|   |   |   |   
+|   |   |   \---app
+|   |   |           index.html
+|   |   |           
+|   |   +---Store
+|   |   |   +---ANDROID
+|   |   |   |       AndroidManifest.template.xml
+|   |   |   |       build.gradle.signing.snippet.txt
+|   |   |   |       
+|   |   |   +---DESKTOP
+|   |   |   |       electron-builder.yml
+|   |   |   |       
+|   |   |   +---IOS
+|   |   |   |       Info.plist.template
+|   |   |   |       
+|   |   |   +---Signing
+|   |   |   |       signing_placeholders.md
+|   |   |   |       
+|   |   |   \---WINDOWS
+|   |   |           AppxManifest.template.xml
+|   |   |           
+|   |   +---Tools
+|   |   |       build_msix.ps1
+|   |   |       generate_checksums.ps1
+|   |   |       make_release.bat
+|   |   |       normalize_wavs.ps1
+|   |   |       package_release.ps1
+|   |   |       run_zone_demo.bat
+|   |   |       ZONE_DEMO_README.txt
+|   |   |       
+|   |   \---voices
+|   |           ALIEN.mp3
+|   |           ALIEN_FINAL.wav
+|   |           BLADERUNNER.mp3
+|   |           BLADERUNNER_FINAL.wav
+|   |           BTTF.mp3
+|   |           BTTF_FINAL.wav
+|   |           COFFEEMACHINE.mp3
+|   |           COFFEEMACHINE_FINAL.wav
+|   |           CYBERPUNK.mp3
+|   |           CYBERPUNK_FINAL.wav
+|   |           FALLOUT.mp3
+|   |           FALLOUTTERMINAL.mp3
+|   |           FALLOUTTERMINAL_FINAL.wav
+|   |           FALLOUT_FINAL.wav
+|   |           HAL9000.mp3
+|   |           HAL9000_FINAL.wav
+|   |           MOTHER_CALM_v1.mp3
+|   |           MOTHER_CALM_v1_FINAL.wav
+|   |           MOTHER_DISTRESS_v1.mp3
+|   |           MOTHER_DISTRESS_v1_FINAL.wav
+|   |           TALKYTOASTER.mp3
+|   |           
+|   +---sfx
+|   |       README.md
+|   |       soundmap.json
+|   |       sulaco_fx_001.wav
+|   |       sulaco_fx_002.wav
+|   |       sulaco_fx_003.wav
+|   |       sulaco_fx_004.wav
+|   |       sulaco_fx_005.wav
+|   |       sulaco_fx_006.wav
+|   |       sulaco_fx_007.wav
+|   |       sulaco_fx_008.wav
+|   |       sulaco_fx_009.wav
+|   |       sulaco_fx_010.wav
+|   |       sulaco_fx_011.wav
+|   |       sulaco_fx_012.wav
+|   |       sulaco_fx_013.wav
+|   |       sulaco_fx_014.wav
+|   |       sulaco_fx_015.wav
+|   |       sulaco_fx_016.wav
+|   |       sulaco_fx_017.wav
+|   |       sulaco_fx_018.wav
+|   |       sulaco_fx_019.wav
+|   |       sulaco_fx_020.wav
+|   |       sulaco_fx_021.wav
+|   |       sulaco_fx_022.wav
+|   |       sulaco_fx_023.wav
+|   |       sulaco_fx_024.wav
+|   |       sulaco_fx_025.wav
+|   |       sulaco_fx_026.wav
+|   |       sulaco_fx_027.wav
+|   |       sulaco_fx_028.wav
+|   |       sulaco_fx_029.wav
+|   |       sulaco_fx_030.wav
+|   |       sulaco_fx_031.wav
+|   |       sulaco_fx_032.wav
+|   |       sulaco_fx_033.wav
+|   |       sulaco_fx_034.wav
+|   |       sulaco_fx_035.wav
+|   |       sulaco_fx_036.wav
+|   |       sulaco_fx_037.wav
+|   |       
+|   +---voice wavs
+|   |       ALIEN_FINAL.wav
+|   |       BLADERUNNER_FINAL.wav
+|   |       BTTF_FINAL.wav
+|   |       COFFEEMACHINE_FINAL.wav
+|   |       CYBERPUNK_FINAL.wav
+|   |       FALLOUTTERMINAL_FINAL.wav
+|   |       FALLOUT_FINAL.wav
+|   |       HAL9000_FINAL.wav
+|   |       MOTHER_CALM_v1_FINAL.wav
+|   |       MOTHER_DISTRESS_v1_FINAL.wav
+|   |       TALKYTOASTER_FINAL.wav
+|   |       
+|   \---voices mp3
+|           ALIEN.mp3
+|           BLADERUNNER.mp3
+|           BTTF.mp3
+|           COFFEEMACHINE.mp3
+|           CYBERPUNK.mp3
+|           FALLOUT.mp3
+|           FALLOUTTERMINAL.mp3
+|           HAL9000.mp3
+|           mother voices mp3.7z
+|           MOTHER_CALM_v1.mp3
+|           MOTHER_DISTRESS_v1.mp3
+|           TALKYTOASTER.mp3
+|           
+\---SETUPS
+    |   7z2501-x64.exe
+    |   ffmpeg-2025-08-20-git-4d7c609be3-full_build.7z
+    |   ImageMagick-7.1.2-1-Q16-HDRI-x64-dll.exe
+    |   inkscape-1.4.2_2025-05-13_f4327f4-x64.msi
+    |   OpenSCAD-2021.01-x86-64-Installer.exe
+    |   python-3.13.7-amd64.exe
+    |   vlc-3.0.21-win64.exe
+    |   
+    \---ffmpeg-2025-08-20-git-4d7c609be3-full_build
+        \---ffmpeg-2025-08-20-git-4d7c609be3-full_build
+            |   LICENSE
+            |   README.txt
+            |   
+            +---bin
+            |       ffmpeg.exe
+            |       ffplay.exe
+            |       ffprobe.exe
+            |       
+            +---doc
+            |       bootstrap.min.css
+            |       community.html
+            |       default.css
+            |       developer.html
+            |       faq.html
+            |       fate.html
+            |       ffmpeg-all.html
+            |       ffmpeg-bitstream-filters.html
+            |       ffmpeg-codecs.html
+            |       ffmpeg-devices.html
+            |       ffmpeg-filters.html
+            |       ffmpeg-formats.html
+            |       ffmpeg-protocols.html
+            |       ffmpeg-resampler.html
+            |       ffmpeg-scaler.html
+            |       ffmpeg-utils.html
+            |       ffmpeg.html
+            |       ffplay-all.html
+            |       ffplay.html
+            |       ffprobe-all.html
+            |       ffprobe.html
+            |       general.html
+            |       git-howto.html
+            |       libavcodec.html
+            |       libavdevice.html
+            |       libavfilter.html
+            |       libavformat.html
+            |       libavutil.html
+            |       libswresample.html
+            |       libswscale.html
+            |       mailing-list-faq.html
+            |       nut.html
+            |       platform.html
+            |       style.min.css
+            |       
+            \---presets
+                    libvpx-1080p.ffpreset
+                    libvpx-1080p50_60.ffpreset
+                    libvpx-360p.ffpreset
+                    libvpx-720p.ffpreset
+                    libvpx-720p50_60.ffpreset
+                    
